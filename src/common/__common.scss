@@ -1,0 +1,11 @@
+@mixin boxshadow($x, $y, $blur, $spread, $color) {
+  box-shadow: $x $y $blur $spread $color;
+}
+$fontfamily: "Noto Sans", sans-serif;
+$bodybackground: rgb(15, 29, 45);
+$fontcolor: white;
+$navbackground: rgb(49, 125, 105);
+$homecontainerheight: calc(100vh - 220px);
+$borderradius: 5px;
+$cardbg: rgb(2, 8, 27);
+$footerbackground: black;

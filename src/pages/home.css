@@ -1,0 +1,15 @@
+.homecontainer {
+  height: calc(100vh - 220px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homecontainer .homeheading {
+  border-radius: 5px;
+  text-align: center;
+  width: 80%;
+  background-color: rgb(239, 134, 134);
+  padding: 30px 20px;
+  font-size: 2rem;
+  box-shadow: 0px 0px 10px 0px grey;
+}/*# sourceMappingURL=home.css.map */

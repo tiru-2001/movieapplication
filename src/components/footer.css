@@ -1,0 +1,21 @@
+footer {
+  position: sticky;
+  top: 100%;
+  padding: 30px 20px;
+  background-color: black;
+}
+footer .footerSubcontainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .footerSubcontainer .footer-items a {
+  color: white;
+}
+footer .footerSubcontainer .footer-items a .fa-brands {
+  font-size: 2rem;
+}
+footer .footerSubcontainer .footer-items a .fa-brands:hover {
+  color: rgb(10, 240, 209);
+}/*# sourceMappingURL=footer.css.map */

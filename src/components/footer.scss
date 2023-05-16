@@ -1,0 +1,26 @@
+@import "../common/_common";
+
+footer {
+  position: sticky;
+  top: 100%;
+  padding: 30px 20px;
+  background-color: $footerbackground;
+  .footerSubcontainer {
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .footer-items {
+      a {
+        color: white;
+        .fa-brands {
+          font-size: 2rem;
+          &:hover {
+            color: rgb(10, 240, 209);
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@import "../common/_common";
+.card-container {
+  margin: 20px;
+
+  transition: transform ease 500ms;
+  width: 300px;
+  background-color: $cardbg;
+  border-radius: $borderradius;
+  .image-container {
+    .imge {
+      height: 200px;
+      width: 100%;
+      border-radius: $borderradius;
+    }
+  }
+  .detail-container {
+    margin-top: 10px;
+    padding: 10px;
+  }
+  &:hover {
+    transform: scale(0.8);
+  }
+}

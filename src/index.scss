@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap");
+@import "./common/_common";
 * {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  font-family: "Noto Sans", sans-serif;
+  font-family: $fontfamily;
 }
 
 body {
-  background-color: rgb(15, 29, 45);
-  color: white;
-}/*# sourceMappingURL=index.css.map */
+  background-color: $bodybackground;
+  color: $fontcolor;
+  // min-height: 100vh;
+}
